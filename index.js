@@ -5,8 +5,8 @@ app.get("/prueba", (req,res)=>{
     res.send("Prueba del servidor funcionando")
 })
 
-app.listen(8084, ()=>{
-    console.log("Servidor en línea por el puerto 8084")
+app.listen(8082, ()=>{
+    console.log("Servidor en línea por el puerto 8082")
 })
 
 
